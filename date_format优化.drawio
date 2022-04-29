@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T09:08:09.962Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="lt7jJNqFXOj5ZCD8f40B" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-29T10:02:55.952Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="yMLCVKinRcQnvFDs8Cq9" version="17.5.0" type="github">
   <diagram id="G_9-2qdicj4UJVRfquI0" name="Page-1">
-    <mxGraphModel dx="946" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1748" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,6 +25,60 @@
               <mxPoint x="394" y="129.5" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zSZ344aRCzR-wqKju0uk-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zSZ344aRCzR-wqKju0uk-10" target="zSZ344aRCzR-wqKju0uk-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zSZ344aRCzR-wqKju0uk-10" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="280" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zSZ344aRCzR-wqKju0uk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zSZ344aRCzR-wqKju0uk-11" target="zSZ344aRCzR-wqKju0uk-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSZ344aRCzR-wqKju0uk-11" value="调用getColumnMetaList(Long datasetId)方法获得元信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="152.5" y="460" width="145" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zSZ344aRCzR-wqKju0uk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zSZ344aRCzR-wqKju0uk-13" target="zSZ344aRCzR-wqKju0uk-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSZ344aRCzR-wqKju0uk-13" value="获取被设置为日期类型的字段" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zSZ344aRCzR-wqKju0uk-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zSZ344aRCzR-wqKju0uk-15" target="zSZ344aRCzR-wqKju0uk-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSZ344aRCzR-wqKju0uk-20" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zSZ344aRCzR-wqKju0uk-19">
+          <mxGeometry x="-0.447" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zSZ344aRCzR-wqKju0uk-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zSZ344aRCzR-wqKju0uk-15" target="zSZ344aRCzR-wqKju0uk-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSZ344aRCzR-wqKju0uk-27" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zSZ344aRCzR-wqKju0uk-24">
+          <mxGeometry x="-0.4043" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zSZ344aRCzR-wqKju0uk-15" value="是否是字符串类型？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="148.75" y="555" width="152.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zSZ344aRCzR-wqKju0uk-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zSZ344aRCzR-wqKju0uk-18" target="zSZ344aRCzR-wqKju0uk-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSZ344aRCzR-wqKju0uk-18" value="取该字段的不重复的十条信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zSZ344aRCzR-wqKju0uk-23" value="存入数据库解析结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zSZ344aRCzR-wqKju0uk-28" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.992;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zSZ344aRCzR-wqKju0uk-25" target="zSZ344aRCzR-wqKju0uk-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSZ344aRCzR-wqKju0uk-25" value="解析是否成功？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="750" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
